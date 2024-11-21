@@ -1,9 +1,10 @@
 import 'package:quantum_fetch/quantum_fetch.dart';
 import 'package:quantum_fetch/src/metadata/pagination_meta_data.dart';
+import 'package:weather_app_ajaya/core/constants/app_const.dart';
 
 class MyFetchConfig implements QuantumFetchConfig {
   @override
-  String get baseUrl => 'https://api.weatherapi.com/v1';
+  String get baseUrl => AppConst.baseUrl;
   @override
   String tokenPrefix = 'Bearer ';
   @override
