@@ -1,0 +1,176 @@
+{
+    "[dart]": {
+      "editor.codeActionsOnSave": {
+        "flutter.stylizers": "explicit",
+        "quickFix.create.constructorForFinalFields": "explicit",
+        "quickfix.add.required": "explicit",
+        "quickfix.add.required.multi": "explicit",
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+      },
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+        80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "accessibility.signals.lineHasWarning": {
+      "sound": "on"
+    },
+    "bloc.newBlocTemplate.type": "freezed",
+    "codeium.enableCodeLens": "hide_x",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "dart.openDevTools": "flutter",
+    "dart.runPubGetOnPubspecChanges": "prompt",
+    "debug.console.fontFamily": "default",
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+      "addMissingImports": "explicit",
+      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+    "editor.fontFamily": "Consolas",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "400",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.hover.delay": 500,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "variables",
+            "functions",
+            "strings",
+            "numbers",
+            "entity.name.type.class",
+            "keyword",
+            "constant",
+            "storage.modifier",
+            "comment.block.documentation",
+            "storage.type.class.js"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    "editor.wordWrap": "on",
+    "emmet.excludeLanguages": [
+      "markdown"
+    ],
+    "emmet.extensionsPath": [],
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "plaintext": "jade",
+      "razor": "html",
+      "vue-html": "html"
+    },
+    "emmet.optimizeStylesheetParsing": true,
+    "emmet.preferences": {},
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.showSuggestionsAsSnippets": false,
+    "emmet.syntaxProfiles": {},
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.variables": {},
+    "errorLens.excludeBySource": [
+      "dart(unused_local_variable)",
+      "dart(argument_type_not_assignable)"
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+      "*.dart": "$(capture).g.dart, $(capture).freezed.dart,$(capture).gr.dart",
+      ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+      "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+      "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md"
+    },
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "html.autoClosingTags": true,
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "scm.inputFontFamily": "Victor Mono",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.env.osx": {
+      "CW_NEW_SESSION": "1",
+      "FIG_NEW_SESSION": "1",
+      "Q_NEW_SESSION": "1"
+    },
+    "terminal.integrated.fontFamily": "monospace",
+    "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
+    "window.titleBarStyle": "custom",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#232323",
+      "statusBar.debuggingBackground": "#424548",
+      "statusBar.noFolderBackground": "#212121",
+      "terminal.foreground": "#FFFFFF"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "vs-seti",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.activityBar.location": "default",
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  }
